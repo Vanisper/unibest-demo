@@ -27,7 +27,7 @@
 
     <view class="_content">
       <!-- TODO: 实现一 -->
-      <!-- <movable-area class="h-full w-full move-area">
+      <movable-area class="h-full w-full move-area">
         <movable-view
           class="move-item"
           v-for="(moveItem, index) in movableArea"
@@ -39,10 +39,10 @@
         >
           <view class="move-item_content" />
         </movable-view>
-      </movable-area> -->
+      </movable-area>
 
       <!-- TODO: 实现二 -->
-      <view class="grid-box">
+      <!-- <view class="grid-box">
         <view
           class="grid-box_item"
           v-for="(moveItem, index) in movableArea"
@@ -51,7 +51,7 @@
         >
           <view class="move-item_content" />
         </view>
-      </view>
+      </view> -->
 
       <!-- TODO: 实现三 -->
       <!-- <view class="grid-box">
